@@ -1,0 +1,5 @@
+# bucket  = "tfstate-471112916435"
+# key     = "serverless-app/terraform.tfstate"
+# region  = "us-east-1"
+# profile = "curso-aws"
+# dynamodb_table = "tflock-tfstate-471112916435"
