@@ -1,6 +1,6 @@
 locals {
-  lambdas_path = "${path.module}/../app/lambdas"
-  layers_path  = "${path.module}/../app/layers/nodejs"
+  lambdas_path = "app/lambdas"
+  layers_path  = "app/layers/nodejs"
   layer_name   = "joi.zip"
 
   common_tags = {
