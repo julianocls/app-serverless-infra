@@ -17,10 +17,10 @@ resource "aws_dynamodb_table_item" "this" {
   hash_key   = aws_dynamodb_table.this.hash_key
   table_name = aws_dynamodb_table.this.name
   item       = <<ITEM
-{
-"TodoId":{"S": "1"},
-"Task":{"S": "Aprender Terraform"},
-"Done":{"S": "0"}
-}
-ITEM
+                {
+                "TodoId":{"S": "1"},
+                "Task":{"S": "Aprender Terraform"},
+                "Done":{"S": "0"}
+                }
+                ITEM
 }
