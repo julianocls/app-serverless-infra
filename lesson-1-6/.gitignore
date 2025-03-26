@@ -33,7 +33,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
-lesson-1-6/.terraform.lock.hcl
+.terraform.lock.hcl
 
 # Ignore sonarlint file
 .idea
@@ -43,7 +43,7 @@ lesson-1-6/.terraform.lock.hcl
 .DS_Store
 example.tf
 terraform.tfplan
-lesson-1-6/terraform.tfstate
+terraform.tfstate
 bin/
 modules-dev/
 /pkg/
